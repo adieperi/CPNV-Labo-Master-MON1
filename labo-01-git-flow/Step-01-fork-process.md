@@ -67,7 +67,7 @@ From https://github.com/CPNV-MON1/Labo-Master
 Already up to date.
 ```
 
-* [ ] Create a branch feature called "feat:add terraform basic script"
+* [ ] Create a branch feature called "terraformBasicScript"
 
 ```
 [INPUT]
@@ -77,7 +77,7 @@ Already up to date.
 //TODO
 ```
 
-* [ ] Add this code and commit it
+* [ ] Add this code and commit it (feat:add basic terraform script")
 
 ```
 terraform {
