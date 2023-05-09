@@ -6,42 +6,68 @@
 
 * [ ] Fork the "upstream" repository in your github organisation
 
-```
-//TODO
-Screenshot of Github
-```
+![](./assets/img1.png)
 
 * [ ] Clone "teacher" repo in your local machine
 
 ```
 [INPUT]
-//TODO
+git clone https://github.com/Enelg52/Labo-Master-1.git
 
 [OUTPUT]
-//TODO
+Cloning into 'Labo-Master-1'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 12 (delta 0), reused 12 (delta 0), pack-reused 0
+Receiving objects: 100% (12/12), 4.28 KiB | 547.00 KiB/s, done.
 ```
 
 * [ ] Init Git flow (with standard settings)
 
 ```
 [INPUT]
-//TODO
+git flow init
 
 [OUTPUT]
-//TODO
+Which branch should be used for bringing forth production releases?
+   - main
+Branch name for production releases: [main]
+Branch name for "next release" development: [develop]
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/]
+Bugfix branches? [bugfix/]
+Release branches? [release/]
+Hotfix branches? [hotfix/]
+Support branches? [support/]
+Version tag prefix? []
+Hooks and filters directory? [C:/Users/yanng/Documents/CPNV/MON1/Labo-Master-1/.git/hooks]
 ```
 
 * [ ] Update your develop branch directly to the upstream (main branch)
 
 ```
 [INPUT]
-//TODO
+git remote add upstream https://github.com/CPNV-MON1/Labo-Master.git
+git remote -v
+
+git pull upstream main
 
 [OUTPUT]
-//TODO
+origin  https://github.com/Enelg52/Labo-Master-1.git (fetch)
+origin  https://github.com/Enelg52/Labo-Master-1.git (push)
+upstream        https://github.com/CPNV-MON1/Labo-Master.git (fetch)
+upstream        https://github.com/CPNV-MON1/Labo-Master.git (push)
+
+git pull upstream main
+From https://github.com/CPNV-MON1/Labo-Master
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> upstream/main
+Already up to date.
 ```
 
-* [ ] Create a branch feature called "feat:add terraform basic  script"
+* [ ] Create a branch feature called "feat:add terraform basic script"
 
 ```
 [INPUT]
