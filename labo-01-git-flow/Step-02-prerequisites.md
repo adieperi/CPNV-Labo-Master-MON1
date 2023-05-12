@@ -13,27 +13,35 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 
 ```
 [INPUT]
-//TODO
+sudo apt install git-flow
 
 [OUTPUT]
-//TODO
+╭─adieperi@ad-laptop ~/Documents/code/anthonydieperink/github.com/CPNV-Labo-Master-MON1  ‹develop*› 
+╰─➤  sudo apt install git-flow                                                                                                                      130 ↵
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+git-flow is already the newest version (1.12.3-3).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
 ```
 
 * [ ] Confirm the installed version
 
 ```
 [INPUT]
-//TODO
+git flow version
 
 [OUTPUT]
-//TODO
+╭─adieperi@ad-laptop ~/Documents/code/anthonydieperink/github.com/CPNV-Labo-Master-MON1  ‹develop*› 
+╰─➤  git flow version                            
+1.12.3 (AVH Edition)
+
 ```
 
 * [ ] What do you think about this release?
 
-```
-//TODO
-```
+![github](./assets/img/github8.png "github")
 
 ## What's git-flow, branches feature.
 
@@ -44,13 +52,15 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 * [ ] Which branches are persistent and what do they contain?
 
 ```
-//TODO
+La branch main/master et develop.
+main/master -> branch stable
+develop -> branch unstable
 ```
 
 * [ ] Why do we have to merge hotfix in both master and develop branches, but not into all active feature branches?
 
 ```
-//TODO
+Car les actives feature branches auront les changement lors de l'application de la feature avec un merge.
 ```
 
 ## Initialize git flow on an existing project
@@ -58,13 +68,13 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 * [ ] What happens when you run the "git flow init" command on an existing local repository?
 
 ```
-//TODO
+Cela va initialiser git flow et switch sur la branch develop
 ```
 
 * [ ] When do we need to make this git command?
 
 ```
-//TODO
+Après le clone d'un repo
 ```
 
 ## Practice the basic git commands
@@ -74,17 +84,17 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 * [ ] What does this git command "git add -all" achieve (.gitignore impacts)?
 
 ```
-//TODO
+Elle ajoute tous les changements ou repo et annule l'effet du .gitignore
 ```
 
 * [ ] What does this git command "git status" achieve?
 
 ```
-//TODO
+Affiche fichier staged, not staged, untracked et etc...
 ```
 
 * [ ] What does this git command "git remote add upstream \<url>" achieve?
 
 ```
-//TODO
+Cela ajoute un nouveau remote au repo local
 ```
