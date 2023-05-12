@@ -35,16 +35,8 @@ stress -c 4
 ```
 
 ![newrelic](./assets/img/newrelic4.png "newrelic")
+
+### Prime 95
 ![newrelic](./assets/img/newrelic6.png "newrelic")
-
-### Fork bomb
-
-Le but c'est de run un process en boucle qui va surcharger la ram
-
-`fork.bat`
-
-```
-%0|%0
-```
 
 ![newrelic](./assets/img/newrelic5.png "newrelic")
